@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="file:///Users/harshvardhanbharitkar/Desktop/testHTML/learnTable/favicon.ico"/>
+</head>
+<style>
+     table,td,tr,th{
+        border:2px solid rgb(147, 147, 147);
+        border-collapse: collapse;
+        text-align: center;
+     }
+    #h1
+    {
+        background-color: rgb(247, 247, 157);
+    }
+    #h2
+    {
+        background-color: rgb(150, 150, 245);
+    }
+    #h3
+    {
+        background-color: rgb(161, 243, 161);
+    }
+    #name{
+        text-align: center;
+    }
+   
+</style>
+
+<body>
+    <br><br><br>
+    <h2 id="name" >TABLE</h2>
+    <table align="center">
+    <tr>
+        <th rowspan="3">day</th>
+        <th colspan="3">seminar</th>
+    </tr>
+    <tr>
+        <th colspan="2">scehedule</th>
+        <th rowspan="2">topic</th>
+    </tr>
+    <tr>
+        <th>begin</th>
+        <th>end</th>
+    </tr>
+    <tr>
+        <td rowspan="2">monday</td>
+        <td id="h1" rowspan="2"> 8:00 a.m.</td>
+        <td id ="h2" rowspan="2"> 5:00 p.m.</td>
+        <td>Intriduction to XML</td>
+    </tr>
+    <tr>
+        <td>validity : DTD and relax NG</td>
+    </tr>
+    <tr>
+        <td rowspan="3">thuesday</td>
+        <td id="h1">8:00 a.m.</td>
+        <td id="h1">11:00 a.m.</td>
+        <td rowspan="1,5"> XPath</td>
+    </tr>
+    <tr>
+        <td id="h1">11:00 a.m.</td>
+        <td id="h3">2:00 p.m.</td>
+        <td>XSL Transformation</td>
+    </tr>
+    <tr>
+        <td id="h3">2:00 p.m.</td>
+        <td id="h2">5:00 p.m.</td>
+        <td>XLS path 2</td>
+    </tr>
+    <tr>
+        <td>wednesday</td>
+        <td id="h1">8:00 a.m.</td>
+        <td id="h3">12:00 p.m.</td>
+        <td>XSL formatting object</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,24 @@
+#linear{
+    /*default transition is top to bottom*/
+    background-image: linear-gradient(white,orange);
+
+    background-image: linear-gradient(orange,white,green);
+
+    /* transitions */
+    background-image: linear-gradient(to right,orange,red);
+    background-image:linear-gradient(to top,orange,red) ;
+    background-image: linear-gradient(to left,orange,blue);
+    background-image: linear-gradient(to bottom,blue , white);
+    background-image: linear-gradient(to top right,blue ,white);
+
+    background-image: linear-gradient(to right,rgb(255,0,0,0),rgb(0,0,0,1));
+}
+
+#radial{
+    margin-top:20px; 
+    width:200px; 
+    height:400px; 
+    border:1px solid black;
+    background-image: radial-gradient(circle,rgba(5, 164, 151, 0.913),rgb(233, 114, 71));
+    background-image: radial-gradient(circle,red 10%,white 2%,blue 100%);
+} 

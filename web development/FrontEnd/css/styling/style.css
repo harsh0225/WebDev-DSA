@@ -1,0 +1,12 @@
+#cs{
+    color:red;
+    /* font-size: 50px; */
+}
+p{
+    color:aqua;
+    font-size: small;
+}
+.specificity{
+    color:green;
+    font-size: 50px;
+}

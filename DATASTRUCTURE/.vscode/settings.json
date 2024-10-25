@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "bubblesort.C": "cpp",
+        "iostream": "cpp",
+        "movezeroright.C": "cpp",
+        "deque": "cpp",
+        "friendfun.C": "cpp",
+        "vector": "cpp"
+    }
+}

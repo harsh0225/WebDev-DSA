@@ -1,0 +1,12 @@
+-> mongodb atlas login
+-> top left -> dropdown -> new Project 
+-> enter project name and create project 
+-> build database click
+-> select MO plan , which is marked as free and select mumbai as a region
+-> click create
+-> save username & password and click create user 
+->  click finish
+-> click connect 
+-> click compass
+-> copy connection string 
+-> replace <passward> to save passward 

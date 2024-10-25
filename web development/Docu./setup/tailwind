@@ -1,0 +1,11 @@
+1.install node
+2.run commands
+	1.npm install -D tailwindcss postcss autoprefixer vite
+	2.npx tailwind init -p
+3.install tailwind css intelisense extension
+4.Add * in content
+5.Add scripts in package.json
+6.create main.css and insert and link:
+	1.@tailwind base;
+	2.@tailwind components;
+	3.@tailwind utilities;

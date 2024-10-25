@@ -1,0 +1,21 @@
+.container{
+    background-color: yellowgreen;
+    height:500px;
+    width:500px;
+}
+
+.box{
+    margin:50px;
+    height: 100px;
+    width:100px;
+    background-color: aqua;
+    border: 1px solid black;
+    transition:all 1s cubic-bezier(0.94,-0.29, 0.22, 2);
+
+}
+
+.box:hover{
+    background-color: blue;
+    transform: rotate(45deg);
+    transform:translatex(500px);
+}

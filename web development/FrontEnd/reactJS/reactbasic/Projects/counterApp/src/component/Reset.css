@@ -1,0 +1,8 @@
+.reset{
+    width:100px;
+    background-color: rgb(231, 67, 67);
+    color: balck;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}

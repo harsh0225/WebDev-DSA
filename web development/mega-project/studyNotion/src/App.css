@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.homepage_bg{
+    background:url('../src/assets/Images/bghome.svg');
+}
+
+.BoxShadow{
+    box-shadow: -10px -10px 50px rgb(83, 187, 235);
+    z-index:10
+}
+
+.vidioBox{
+    width:1035px;
+    height:515px;
+    background-color: white;
+    position: absolute;
+    z-index: 0;
+    top:10px
+}
+
+
+.custom-loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(farthest-side,#766DF4 94%,#0000) top/8px 8px no-repeat,
+      conic-gradient(#0000 30%,#766DF4);
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+    animation:s3 1s infinite linear;
+  }
+  
+  @keyframes s3{ 
+    100%{transform: rotate(1turn)}
+  }
+
+  .yellowButton {
+    @apply cursor-pointer rounded-md bg-yellow-50 px-[20px] py-[8px] font-semibold text-richblack-900;
+  }
+  
+  .blackButton {
+    @apply cursor-pointer rounded-md bg-richblack-800 px-[20px] py-[8px] font-semibold text-richblack-5;
+  }

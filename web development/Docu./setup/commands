@@ -1,0 +1,20 @@
+command for react
+
+1.  App          : npm create-react-app app_name
+2.  icons        : npm install react-icons
+3.  react router : npm install react-router-dom
+4.  node modules : npm install
+5.  toaster      : npm install react-toastify
+6.  redux        : npm install @reduxjs/toolkit react-redux
+
+
+command for backend
+
+1.  JSON file    : npm init -y
+2.  express      : npm install express
+3. 	bcrypt       : npm install bcrypt
+4. 	jwt          : npm install jsonwebtoken
+5.  dotenv       : npm install dotenv
+6.  cookie-parser: npm install cookie-parser
+7.  mongoose     : npm install mongoose 
+8.  nodemon      : npm install nodemon

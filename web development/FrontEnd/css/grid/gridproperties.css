@@ -1,0 +1,39 @@
+.container{
+    height:600px;
+    width:650px;
+    background-color: yellow;
+    display:grid;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: 140px 140px;
+    grid-gap:10px;
+    
+    /*
+    justify-content: space-evenly;
+    justify-content:space-between;
+    justify-content:space-around;
+    justify-content:start;
+    justify-content:end;
+    justify-content:center; */
+   
+
+    /*
+    align-items: start;
+    align-items:end;
+    align-items:stretch;
+    align-items: baseline; 
+    */
+}
+
+/* self content alignment */
+/* #box1{
+    justify-self:start;
+    justify-self:end;
+    justify-self:center;
+    align-self:center;
+    align-items: start;
+    align-self:end;
+} */
+
+.box{
+    background-color: aqua;
+}

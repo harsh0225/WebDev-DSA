@@ -1,0 +1,49 @@
+.new-product__controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.new-product__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-product_controls input {
+  font: inherit;
+  padding-left: 0.5rem; 
+  padding-right: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #fcfafa;
+  width: 8rem;
+  max-width: 100%;
+
+}
+
+.new-product_button {
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.input_Info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.Form{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
