@@ -1,2 +1,0 @@
-reverseDoubly(tail);
-    print(tail);
